@@ -1,0 +1,11 @@
+.navigation {
+  @apply bg-white md:w-full flex flex-col justify-center h-fit py-4 items-center shadow-sm;
+}
+
+.navigationContent {
+  @apply px-3 flex flex-row justify-between items-center md:w-[75vw] gap-2 md:gap-[50px];
+}
+
+.logo {
+  @apply hidden md:block font-bold text-primary md:text-[24px];
+}

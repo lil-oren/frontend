@@ -1,0 +1,15 @@
+.cart {
+  @apply hidden sm:block;
+}
+
+.cartHeader {
+  @apply flex flex-row justify-between items-center px-5 pt-5;
+}
+
+.totalCartItems {
+  @apply text-[10px] sm:text-[12px] md:text-[14px];
+}
+
+.cartItemsWrapper {
+  @apply grid gap-3 p-2 sm:w-[250px] md:w-[270px] lg:w-[290px] lg:grid-rows-[.75fr_1fr];
+}

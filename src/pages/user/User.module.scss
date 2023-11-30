@@ -1,0 +1,15 @@
+.list__item {
+  @apply flex py-[12px] px-[16px] items-center w-full hover:cursor-pointer lg:bg-transparent;
+}
+
+.list__item__container {
+  @apply flex flex-col flex-shrink flex-grow text-ellipsis overflow-hidden ml-5;
+}
+
+.list__item__title {
+  @apply whitespace-nowrap overflow-hidden text-ellipsis block relative font-bold text-[14px] m-0;
+}
+
+.list__item__desc {
+  @apply text-[12px] max-h-[44px] block relative font-normal mt-[2px];
+}

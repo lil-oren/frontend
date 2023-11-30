@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "Kenneth123",
+      "email": "Kenneth@gmail.com",
+      "password": "Kenneth.123",
+      "confirmPassword": "Kenneth.123",
+      "id": 1
+    },
+    {
+      "username": "<script>alert(\"test\")</script>",
+      "email": "kenneth@gmail.com",
+      "password": "Kenneth.123",
+      "confirmPassword": "Kenneth.123",
+      "id": 2
+    }
+  ]
+}

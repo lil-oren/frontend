@@ -1,0 +1,38 @@
+.liloren__user__presentation {
+  @apply flex flex-row p-4 lg:w-[350px] relative;
+}
+
+.lilOren__user__info {
+  @apply ml-4 flex flex-col justify-center overflow-hidden;
+}
+
+.lilOren__user__info__firstname {
+  @apply font-bold text-[16px] max-w-[100%] overflow-ellipsis overflow-hidden whitespace-nowrap;
+}
+
+.lilOren__user__name__container {
+  @apply flex items-center;
+}
+
+.lilOren__user__info__firstname {
+  @apply font-bold text-[16px] max-w-[100%] overflow-ellipsis overflow-hidden whitespace-nowrap;
+}
+.lilOren__user_email__container {
+  @apply font-light text-[14px];
+}
+
+.lilOren__user__edit__button {
+  @apply text-[12px] flex px-4 py-0 overflow-ellipsis whitespace-nowrap outline-none items-center justify-center overflow-hidden relative mt-[8px] lg:hidden;
+}
+
+.img {
+  @apply rounded-full h-[64px] w-[64px];
+}
+
+.label {
+  @apply opacity-0 absolute rounded-full h-[64px] w-[64px] hover:bg-black/5;
+}
+
+.img:hover .label {
+  @apply opacity-10;
+}

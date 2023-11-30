@@ -1,0 +1,3 @@
+.button_wrapper {
+  @apply h-[60px] bg-white w-full flex justify-center items-center text-ellipsis whitespace-nowrap overflow-hidden px-4 pt-4 pb-4 fixed shadow-[0_-1px_6px_0_rgba(141,150,170,0.4)] bottom-0 lg:hidden;
+}

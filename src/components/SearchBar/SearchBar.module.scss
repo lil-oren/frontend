@@ -1,0 +1,7 @@
+.inputField {
+  @apply py-2 pl-[50px] pr-2 w-full rounded-[10px] focus:outline-primary;
+}
+
+.searchInput {
+  @apply relative w-full;
+}

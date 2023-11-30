@@ -1,0 +1,115 @@
+.card {
+  --color-shadow: 0 1px 4px 0 rgba(141, 150, 170, 0.4);
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: var(--color-shadow);
+  padding: 16px;
+  transition-property: background-color, border-color, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.2, 0.64, 0.21, 1);
+  border-radius: 8px;
+  margin: 0px;
+  border: 1px solid transparent;
+
+  .info_container.info {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-direction: column;
+
+    .full_address {
+      white-space: normal;
+      width: 100%;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-break: break-word;
+      font-weight: 400;
+      @media (min-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    .phone_number {
+      white-space: normal;
+      width: 100%;
+      display: -webkit-box;
+      font-weight: 400;
+      @media (min-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    .postal_code {
+      font-weight: 400;
+      @media (min-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    .title {
+      position: relative;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+
+      .text_title {
+        position: relative;
+        display: inline-block;
+        word-break: break-word;
+      }
+    }
+  }
+
+  .action_buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+  }
+}
+
+.card::before {
+  content: ' ';
+  background: #f97316;
+  width: 4px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.card.selected {
+  background: #fef5ec;
+  border: 1px solid #f97316;
+  box-shadow: 0px 1px 6px rgba(141, 150, 170, 0.4);
+}
+
+.text {
+  color: rgba(49, 53, 59, 0.96);
+  letter-spacing: 0.1px;
+  text-decoration: initial;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 4px 4px 4px 0px;
+}
+
+.receiver_name {
+  display: block;
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0px 0px 4px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}

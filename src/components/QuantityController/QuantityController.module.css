@@ -1,0 +1,5 @@
+.hideIndicator::-webkit-outer-spin-button,
+.hideIndicator::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

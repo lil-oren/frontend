@@ -1,0 +1,11 @@
+.lilOren__home__category {
+  @apply flex justify-center items-center flex-col gap-5 rounded-lg shadow-xl p-3 border-[1px] border-gray-100 aspect-square w-32 lg:hover:-translate-y-1 duration-300;
+}
+
+.lilOren__home__category__item__title {
+  @apply truncate w-full text-sm text-center;
+}
+
+.lilOren__home__category__item__img {
+  @apply h-[100%] aspect-square;
+}

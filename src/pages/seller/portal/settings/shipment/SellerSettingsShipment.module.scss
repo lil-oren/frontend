@@ -1,0 +1,52 @@
+.sellerSettingsShipment {
+  padding: 10px 24px 24px;
+  min-height: 92vh;
+  height: auto;
+}
+
+.shopname {
+  position: relative;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  text-decoration: initial;
+  margin: 26px 0px 30px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    font-size: 22px;
+  }
+}
+
+.page_shipping_editor {
+  @apply bg-white;
+}
+
+.section_courier_editor {
+  @apply p-7 bg-white;
+}
+
+.section_header {
+  .heading {
+    @apply block relative font-extrabold text-[14px] mb-2 md:text-[18px] lg:text-[22px];
+  }
+
+  .description {
+    @apply block relative font-normal text-[12px] md:text-[14px] lg:text-[16px];
+  }
+}
+
+.select_courier_wrapper {
+  @apply flex -mx-6;
+}
+
+.section_courier_reguler {
+  @apply w-[100%];
+}
+
+.card {
+  @apply flex;
+}

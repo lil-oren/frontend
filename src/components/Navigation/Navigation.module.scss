@@ -1,0 +1,35 @@
+.navigation {
+  @apply bg-primary-foreground md:w-full flex flex-col justify-center h-fit py-4 items-center;
+}
+
+.navigationContent {
+  @apply px-3 flex flex-row justify-between items-center md:w-[75vw] gap-2 md:gap-[50px];
+}
+
+.logo {
+  @apply hidden md:block font-bold text-primary md:text-[24px];
+}
+
+.searchInput {
+  @apply relative w-full;
+}
+
+.inputField {
+  @apply py-2 pl-[50px] pr-2 w-full rounded-[10px] focus:outline-primary;
+}
+
+.cart {
+  @apply hidden sm:block;
+}
+
+.cartHeader {
+  @apply flex flex-row justify-between items-center px-5 pt-5;
+}
+
+.totalCartItems {
+  @apply text-[10px] sm:text-[12px] md:text-[14px];
+}
+
+.cartItemsWrapper {
+  @apply grid gap-3 p-2 sm:w-[200px] md:w-[200px] lg:w-[290px] lg:grid-rows-[.75fr_1fr];
+}

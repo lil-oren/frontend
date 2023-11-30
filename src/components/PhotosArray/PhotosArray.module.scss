@@ -1,0 +1,9 @@
+.product_info {
+  @apply hidden duration-500 before:ease-in-out after:ease-in-out;
+}
+
+.product_icon:hover {
+  .product_info {
+    @apply block z-[10px];
+  }
+}

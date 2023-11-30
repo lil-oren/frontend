@@ -1,0 +1,24 @@
+.sellerPortalOrder {
+  @apply bg-primary-foreground min-h-[92vh] h-auto;
+}
+
+.shopname {
+  position: relative;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  text-decoration: initial;
+  margin: 26px 0px 30px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    font-size: 22px;
+  }
+}
+
+.page_order {
+  @apply bg-primary-foreground w-[85vw] sm:w-[45vw] md:w-[47vw] lg:w-[65vw];
+}
